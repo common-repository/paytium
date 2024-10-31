@@ -1,0 +1,54 @@
+.wp-updater-license-row td {
+    -webkit-box-shadow: 0px -1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #ffb900;
+    background-color: #fff8e5;
+}
+
+/* Added by David, to show small arrow icon on license row */
+.wp-updater-license-row td:before {
+    font-family: "dashicons", serif;
+    content: "\f474";
+    font-size: 15px;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.wp-updater-license-row.valid td {
+    border-left: 4px solid #00a0d2;
+    background-color: #f7fcfe;
+}
+
+.wp-updater-license-row.valid td .spinner {
+    line-height: 16px;
+    margin-top: 0
+}
+
+.wp-updater-license-row.pending td {
+    border-left: 4px solid #ffb900;
+    background-color: #fff8e5
+}
+
+.wp-updater-license-row.invalid td,
+.wp-updater-license-row.expired td {
+    border-left: 4px solid #dc3232;
+    background-color: #fef7f1
+}
+
+.wp-updater-license-row.invalid td .notice-error,
+.wp-updater-license-row.expired td .notice-error {
+    border-left: none
+}
+
+.plugins .notice p {
+    margin: 0.5em 0
+}

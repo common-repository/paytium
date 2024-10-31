@@ -1,0 +1,45 @@
+.paytium-shortcode-icon {
+}
+.wp-block-paytium-from-select {
+    display: block;
+    background-color: rgba(139, 139, 150, 0.1);
+}
+.wp-block-paytium-from-select .select-paytium-form {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wp-block-paytium-from-select .select-paytium-form .components-base-control__label {
+    margin: 2px auto;
+}
+.wp-block-paytium-from-select .select-paytium-form .components-base-control__label label {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.wp-block-paytium-from-select .select-paytium-form .components-base-control__label svg {
+    position: relative;
+    top: 4px;
+}
+.wp-block-paytium-from-select .select-paytium-form-description {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 13px;
+}
+.wp-block-paytium-from-select .select-paytium-form-manual {
+    cursor: pointer;
+    padding: 0;
+}
+
+.wp-block-paytium-from-select .blank-start {
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    padding: 0;
+}
+
+.wp-block-paytium-from-select .components-base-control .components-base-control__field,
+.wp-block-paytium-from-select .select-paytium-form-description {
+    text-align: left;
+}

@@ -1,0 +1,21 @@
+
+/**************************************************************
+ * Rename this file, because it's toolbar and admin menu icon?
+ *************************************************************/
+
+/**************************************************************
+ * Toolbar
+ *************************************************************/
+#wpadminbar #wp-admin-bar-paytium .pt-icon {
+    float: left;
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 5px !important;
+}
+
+/**************************************************************
+ * Admin menu icon
+ *************************************************************/
+#adminmenu #toplevel_page_paytium div.wp-menu-image img {
+    width: 1.2em
+}
